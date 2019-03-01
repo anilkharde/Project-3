@@ -10,7 +10,7 @@ of this waste and expense could be reduced.
 
 The objective was to predict whether a customer is interested in a caravan insurance policy
 from other data about the customer. The data was supplied based on a real world business problem and was imbalanced.
-Stratified sampling was done to avoid over or underfit. Logistic Regression, Random Forest, XGBoost, Neural Network and SVM
+Stratified sampling was done to avoid over or underfit. multicollinearity was present in the data. Dependent columns were removed based on cutoff for corelation coefficient  Logistic Regression, Random Forest, XGBoost, Neural Network and SVM
 algorithm were implemented. 
 AUC score was 74% and Fbeta score was 0.35.
 
